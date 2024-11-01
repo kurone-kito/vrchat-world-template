@@ -1,6 +1,9 @@
 allowCompoundWords: true
 dictionaries:
-  - en_US
+  - cpp
+  - cpp-refined
+  - dotnet
+  - en_us
   - en-gb
   - eo
   - git
@@ -11,13 +14,14 @@ dictionaries:
 enableGlobDot: true
 features:
   weighted-suggestions: true
-globRoot: ${cwd}
 ignorePaths:
   - .*ignore
   - .git
   - .github/CODE_OF_CONDUCT.*
   - .vscode/extensions.json
   - cspell.config.yml
+  - Packages
+  - ProjectSettings
 language: en,eo,ja
 useGitignore: true
 version: '0.2'
