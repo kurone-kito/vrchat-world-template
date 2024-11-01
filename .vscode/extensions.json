@@ -2,7 +2,12 @@
   "recommendations": [
     "davidanson.vscode-markdownlint",
     "editorconfig.editorconfig",
+    "fernandoescolar.vscode-solution-explorer",
+    "mariomatheu.syntax-project-pbxproj",
+    "mrorz.language-gettext",
     "redhat.vscode-yaml",
-    "streetsidesoftware.code-spell-checker"
+    "streetsidesoftware.code-spell-checker",
+    "visualstudiotoolsforunity.vstuc",
+    "zbecknell.t4-support"
   ]
 }
