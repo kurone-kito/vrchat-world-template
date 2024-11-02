@@ -10,7 +10,8 @@
     "*.sln": "*.csproj",
     "*.xml": "${capture}.dll",
     ".gitconfig": ".gitattributes, .gitignore",
-    ".markdownlint.*": ".markdownlint-cli2.*"
+    ".markdownlint.*": ".markdownlint-cli2.*",
+    ".tool-versions": "global.json"
   },
   "files.associations": {
     "*.anim": "yaml",
