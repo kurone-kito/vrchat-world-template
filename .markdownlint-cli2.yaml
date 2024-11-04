@@ -1,0 +1,9 @@
+ignores:
+  - .github/CODE_OF_CONDUCT*
+  - Assets/**
+  - Library/**
+  - Logs/**
+  - Packages/**/*
+  - ProjectSettings/**
+  - Temp/**
+  - UserSettings/**

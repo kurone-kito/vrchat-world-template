@@ -1,0 +1,34 @@
+allowCompoundWords: true
+dictionaries:
+  - cpp
+  - cpp-refined
+  - dotnet
+  - en_us
+  - en-gb
+  - eo
+  - git
+  - lorem-ipsum
+  - markdown
+  - misc
+  - softwareTerms
+enableGlobDot: true
+features:
+  weighted-suggestions: true
+ignorePaths:
+  - .*ignore
+  - .git
+  - .github/CODE_OF_CONDUCT.*
+  - .vscode/extensions.json
+  - Assets/TextMesh Pro
+  - Assets/UdonSharp
+  - Assets/XR
+  - cspell.config.yml
+  - Packages
+  - ProjectSettings
+language: en,eo,ja
+useGitignore: true
+version: '0.2'
+words:
+  - kito
+  - kuron
+  - kuroné

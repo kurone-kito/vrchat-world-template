@@ -6,6 +6,7 @@ This repo makes it easy to start a new VRChat World project!
 <summary>
 
 ## I Wanna Go Fast
+
 If you don't care about using source control and just want to make something quick:
 
 </summary>
@@ -19,6 +20,7 @@ If you don't care about using source control and just want to make something qui
 <summary>
 
 ## I Want To Use Source Control
+
 This template is set up to easily make your own GitHub projects, and we highly recommend you take this route.
 
 </summary>
@@ -60,7 +62,6 @@ Find the "VRChat SDK" item in the menu bar at the top of the Unity Editor window
 
 ![samples-udonexample-scene](https://user-images.githubusercontent.com/737888/186485286-2758cec3-ec89-4598-a451-9fa12fa27616.png)
 
-
 Once the scene opens, choose "File > Save As..." and give the scene a new name.
 
 Then modify the scene however you'd like - you learn about all the examples in [the UdonExampleScene](https://docs.vrchat.com/docs/udon-example-scene) or learn about [Getting Started with Udon](https://docs.vrchat.com/docs/getting-started-with-udon).
@@ -75,6 +76,7 @@ Then modify the scene however you'd like - you learn about all the examples in [
 </summary>
 
 When you're ready to try out your World, find and choose the menu item "VRChat SDK > Show Control Panel".
+
 * Sign into your VRChat Account in the "Authentication" tab.
 * Switch to the "Builder" tab and choose "Build & Test".
 * After a quick build process, VRChat should open up in your test world!
@@ -90,6 +92,7 @@ When you're ready to try out your World, find and choose the menu item "VRChat S
 </summary>
 
 When you're ready to publish your World so you can use it regularly:
+
 * Return to the VRChat SDK Control Panel in your Unity Project
 * Switch to the "Builder" tab and press "Build and Publish for Windows".
 * This will build your World and add some publishing options to your Game window.
