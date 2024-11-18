@@ -1,40 +1,41 @@
 allowCompoundWords: true
 dictionaries:
   - cpp
-  - csharp
+  - cpp-refined
   - dotnet
+  - en_us
   - en-gb
-  - en-us
-  - fsharp
-  - php
+  - eo
+  - git
+  - lorem-ipsum
+  - markdown
+  - misc
+  - softwareTerms
 enableGlobDot: true
 features:
   weighted-suggestions: true
-globRoot: ${cwd}
 ignorePaths:
+  - .*ignore
   - .git
   - .github/CODE_OF_CONDUCT.*
   - .vscode/extensions.json
+  - Assets/TextMesh Pro
   - Assets/UdonSharp
   - Assets/XR
   - cspell.config.yml
-  - Packages/com.*
-  - Packages/dev.*
-  - Packages/*.json
+  - Packages
   - ProjectSettings
-ignoreRegExpList:
-  - (avtr|wrld)_([0-9a-f]{8})-([0-9a-f]{4})-([0-9a-f]{4})-([0-9a-f]{4})-([0-9a-f]{12})
-language: en,ja
+language: en,eo,ja
 useGitignore: true
-version: "0.2"
+version: '0.2'
 words:
-  - dwlt
   - kito
+  - kuron
   - kuroné
+  - msaa
   - nunit
-  - scriban
   - spatialize
   - udon
-  - vrcsdk
   - vrchat
+  - vrcsdk
   - vstuc
