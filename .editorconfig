@@ -29,6 +29,9 @@ insert_final_newline = false
 [Packages/dev.*/**]
 insert_final_newline = false
 
+[Packages/vpm-manifest.json]
+insert_final_newline = false
+
 [ProjectSettings/**]
 insert_final_newline = false
 

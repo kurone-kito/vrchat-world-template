@@ -6,12 +6,21 @@ dictionaries:
   - en-gb
   - en-us
   - fsharp
+  - game-development
+  - gaming-terms
+  - git
+  - lorem-ipsum
+  - markdown
+  - misc
   - php
+  - softwareTerms
+  - unity
 enableGlobDot: true
 features:
   weighted-suggestions: true
 globRoot: ${cwd}
 ignorePaths:
+  - .*ignore
   - .git
   - .github/CODE_OF_CONDUCT.*
   - .vscode/extensions.json
@@ -29,12 +38,15 @@ useGitignore: true
 version: "0.2"
 words:
   - dwlt
+  - imgbotconfig
   - kito
   - kuroné
+  - msaa
   - nunit
   - scriban
   - spatialize
   - udon
-  - vrcsdk
+  - unityyamlmerge
   - vrchat
+  - vrcsdk
   - vstuc
