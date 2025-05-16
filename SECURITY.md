@@ -16,9 +16,9 @@
 
 If you discover a security vulnerability within this project, please report
 it by issuing a
-[pull request with a fix](https://github.com/kurone-kito/vpm-project-template/pulls)
+[pull request with a fix](https://github.com/kurone-kito/vrchat-world-template/pulls)
 or
-[opening an issue](https://github.com/kurone-kito/vpm-project-template/issues)
+[opening an issue](https://github.com/kurone-kito/vrchat-world-template/issues)
 with the “security” label.
 
 Your contributions to improving the security of this project are greatly
