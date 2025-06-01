@@ -1,54 +1,132 @@
-# 🐱 VPM Project template for VRChat World
+# 🐱 Kuroné Kito's VRChat World Project Template
 
-My template for the VPM project (for VRChat worlds creation)
+This repo makes it easy to start a new VRChat World project!
 
 ## 💭 Difference from original template
 
 - Added some linters e.g. CSpell, EditorConfig, Markdownlint
-- Added some actions e.g. CodeQL, CodeRabbit.AI, Dependabot
-- Auto invoke the VPM registry update when the package is updated
-- Improved a deployment process with GPG signing
-- Improved a GitHub Actions for testing and building
+- Added some actions e.g. CodeQL, CodeRabbit.AI, Dependabot, ImgBot
 - Improved the git attributes and ignore files
 - and more...
 
-## ▶ Getting Started
+---
 
-### 1. Import the registry via the VRChat Creator Companion (VCC)
+<details>
+<summary>
 
-Visit the **[VPM Catalogue page](https://kurone-kito.github.io/vpm/)** and click on the **Add to VCC** button.
+## I Wanna Go Fast
 
-### 2. Import the package to your project
+If you don't care about using source control and just want to make
+something quick:
 
-1. Click on the "Manage Project" button in the VCC
-2. Find the "VRChat Example Package" package and click on the "(+) Add package" button
+</summary>
 
-### 3. Use the package, enjoy :D
+1. [Download this Zip](https://github.com/vrchat-community/template-world/archive/refs/heads/main.zip)
+   and unpack it somewhere.
+2. Go to "3. Open the Project" below.
 
-## 🤖 Setting up the Automation
+</details>
 
-Create a repository variable with the name and value described below.
-For details on how to create repository variables, see [Creating Configuration Variables for a Repository](https://docs.github.com/en/actions/learn-github-actions/variables#creating-configuration-variables-for-a-repository).
-Make sure you are creating a **repository variable**, and not a **repository secret**.
+<details>
+<summary>
 
-- `PACKAGE_NAME`: the name of your package, like `com.vrchat.demo-template`.
+## I Want To Use Source Control
 
-Finally, go to the "Settings" page for your repo, then choose "Pages", and look for the heading "Build and deployment". Change the "Source" dropdown from "Deploy from a branch" to "GitHub Actions".
+This template is set up to easily make your own GitHub projects, and we
+highly recommend you take this route.
 
-That's it!
-Some other notes:
+</summary>
 
-- We highly recommend you keep the existing folder structure of this template.
-  - The root of the project should be a Unity project.
-  - Your packages should be in the "Packages" directory.
-  - If you deviate from this folder structure, you'll need to update the paths that assume your package is in the "Packages" directory on lines 24, 38, 41 and 57.
-- If you want to store and generate your web files in a folder other than "Website" in the root, you can change the `listPublicDirectory` item [here in build-listing.yml](.github/workflows/build-listing.yml#L17).
+## 1. Make Your Own GitHub Project
 
-## Contributing
+Press [![Use This Template](https://user-images.githubusercontent.com/737888/185467681-e5fdb099-d99f-454b-8d9e-0760e5a6e588.png)](https://github.com/vrchat-community/template-world/generate)
+to start a new GitHub project, and follow the directions there. This is an
+optional step but gets you started with using GitHub for source control so
+you'll always have a backup.
 
-Welcome to contribute to this repository! For more details,
-please refer to [CONTRIBUTING.md](.github/CONTRIBUTING.md).
+## 2. Clone or Download the Project
 
-## License
+If you're not ready to use git yet, you can download a zip of your project
+by pressing the "Code" button and then "Download Zip".
 
-This repository is licensed under the [MIT License](LICENSE).
+If you're familiar with git, use your favorite client or the command line
+to clone your repository.
+
+</details>
+
+<details>
+<summary>
+
+## 3. Open the Project
+
+</summary>
+
+Use Unity 2022.3.22f1 to open the project. Press "OK" on the dialog that
+offers to download the required VRChat packages.
+
+![image](https://user-images.githubusercontent.com/737888/185468226-33492169-c1f5-4b27-b5c4-83febb5e6e66.png)
+
+</details>
+
+<details>
+<summary>
+
+## 4. Load the Example World
+
+</summary>
+
+Find the "VRChat SDK" item in the menu bar at the top of the Unity Editor
+window, press it to open, then choose "Samples > UdonExampleScene".
+
+![samples-udonexample-scene](https://user-images.githubusercontent.com/737888/186485286-2758cec3-ec89-4598-a451-9fa12fa27616.png)
+
+Once the scene opens, choose "File > Save As..." and give the scene a new
+name.
+
+Then modify the scene however you'd like - you learn about all the examples
+in [the UdonExampleScene](https://docs.vrchat.com/docs/udon-example-scene)
+or learn about
+[Getting Started with Udon](https://docs.vrchat.com/docs/getting-started-with-udon).
+
+</details>
+
+<details>
+<summary>
+
+## 5. Test Your World
+
+</summary>
+
+When you're ready to try out your World, find and choose the menu item
+"VRChat SDK > Show Control Panel".
+
+- Sign in to your VRChat Account in the "Authentication" tab.
+- Switch to the "Builder" tab and choose "Build & Test".
+- After a quick build process, VRChat should open up in your test world!
+- If you have any issues making a test world, check out
+  [our docs on Using Build & Test](https://docs.vrchat.com/docs/using-build-test).
+
+</details>
+
+<details>
+<summary>
+
+## 6. Publish Your World
+
+</summary>
+
+When you're ready to publish your World so you can use it regularly:
+
+- Return to the VRChat SDK Control Panel in your Unity Project
+- Switch to the "Builder" tab and press "Build and Publish for Windows".
+- This will build your World and add some publishing options to your Game
+  window.
+- Fill out the fields "World Name", "Description" and "Sharing", and check
+  the terms box "the above information is accurate...".
+- Press "Upload".
+
+Return to VRChat - open the "Worlds" menu, then scroll down to the section
+named "Mine". Choose your world from the list and press "Go" to check it
+out!
+
+</details>
