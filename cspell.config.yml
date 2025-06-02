@@ -29,8 +29,11 @@ ignorePaths:
   - Assets/UdonSharp
   - Assets/XR
   - cspell.config.yml
+  - Library
   - Packages
   - ProjectSettings
+ignoreRegExpList:
+  - wrld_([0-9a-f]{8})-([0-9a-f]{4})-([0-9a-f]{4})-([0-9a-f]{4})-([0-9a-f]{12})
 language: en,eo,ja
 useGitignore: true
 version: "0.2"
