@@ -5,6 +5,7 @@ dictionaries:
   - csharp
   - dotnet
   - en-gb
+  - en_shared
   - en-us
   - fsharp
   - game-development
@@ -29,8 +30,11 @@ ignorePaths:
   - Assets/UdonSharp
   - Assets/XR
   - cspell.config.yml
+  - Library
   - Packages
   - ProjectSettings
+ignoreRegExpList:
+  - wrld_([0-9a-f]{8})-([0-9a-f]{4})-([0-9a-f]{4})-([0-9a-f]{4})-([0-9a-f]{12})
 language: en,eo,ja
 useGitignore: true
 version: "0.2"
@@ -43,7 +47,6 @@ words:
   - msaa
   - nunit
   - spatialize
-  - udon
   - unityyamlmerge
   - vrchat
   - vrcsdk
