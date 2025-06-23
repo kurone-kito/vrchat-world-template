@@ -1,5 +1,7 @@
 # 🐱 Kuroné Kito's VRChat World Project Template
 
+[![Linting](https://github.com/kurone-kito/vrchat-world-template/actions/workflows/lint.yml/badge.svg)](https://github.com/kurone-kito/vrchat-world-template/actions/workflows/lint.yml)
+
 This repo makes it easy to start a new VRChat World project!
 
 ## 💭 Difference from original template
