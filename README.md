@@ -1,5 +1,7 @@
 # 🐱 Kuroné Kito's VRChat World Project Template
 
+[![Linting](https://github.com/kurone-kito/vrchat-world-template/actions/workflows/lint.yml/badge.svg)](https://github.com/kurone-kito/vrchat-world-template/actions/workflows/lint.yml)
+
 This repo makes it easy to start a new VRChat World project!
 
 ## 💭 Difference from original template
@@ -8,6 +10,30 @@ This repo makes it easy to start a new VRChat World project!
 - Added some actions e.g. CodeQL, CodeRabbit.AI, Dependabot, ImgBot
 - Improved the git attributes and ignore files
 - and more...
+
+## 🛠 Using `git vrc` Filter
+
+This project uses a custom git filter named `git vrc` to normalize Unity
+files such as `.asset`, `.prefab`, and `.unity`. The filter removes
+unstable data so diffs stay readable and merges remain smooth.
+
+### Install and configure
+
+#### 1. Install the `git-vrc` package
+
+```sh
+cargo install --locked --git 'https://github.com/anatawa12/git-vrc.git'
+git vrc install --config --global
+```
+
+#### 2. Make the `.gitconfig` file available for referencing from local `.git/config`
+
+```sh
+git config include.path '../.gitconfig'
+```
+
+The `.gitattributes` file in this repository already applies the filter to
+Unity YAML files.
 
 ---
 
