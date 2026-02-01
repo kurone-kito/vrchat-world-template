@@ -1,6 +1,6 @@
 # Guidelines for AI Agents
 
-This project is a project template for VPM libraries for VRChat worlds.
+This project is a project template for VRChat worlds.
 
 When contributing to this repository using AI agents, adhere to the
 following guidelines to ensure high-quality contributions that align with
