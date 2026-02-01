@@ -65,6 +65,9 @@
   },
   "files.watcherExclude": {
     "**/*.suo": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "Assets/_LastBuild/**": true,
     "Assets/TextMesh Pro/": true,
     "Assets/UdonSharp/": true,
     "Assets/XR/": true,
@@ -76,6 +79,9 @@
     "UserSettings/**": true
   },
   "git.branchProtection": ["main"],
+  "material-icon-theme.files.associations": {
+    ".imgbotconfig": "robots"
+  },
   "search.exclude": {
     "**/*.suo": true,
     "Assets/TextMesh Pro/": true,
